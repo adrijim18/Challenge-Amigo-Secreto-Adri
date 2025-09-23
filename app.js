@@ -9,5 +9,20 @@ function nuevoAmigo(){
 
 ///Primero tenemos que validar que no esté vacío 
 
+    if (nombre.trim() === "")
+    {
+        alert("Porfa inserta un nombre, recuerda que no puede estar vacío!");
+        return;
+    }
 }
+
+/// Y ahora tenemos que agregar al array de amigos
+    amigos.push(nombre.trim());
+
+
+///Limpiamos el campo del texto para nuevos queries
+    input.value = "";
+
+///Finalmente mostramos la lista actualizada
+    ///No sé como hacerlo xd
 ;
