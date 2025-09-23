@@ -3,3 +3,11 @@
 let amigos = [];
 
 ///Función para agregar nuevos amigos
+function nuevoAmigo(){
+    let input = document.querySelector("#amigo");
+    let nombre = input.value; 
+
+///Primero tenemos que validar que no esté vacío 
+
+}
+;
